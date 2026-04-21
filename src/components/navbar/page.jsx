@@ -7,6 +7,7 @@ export default function NavBar() {
                 src="/site_logo.png"
                 width={204}
                 height={60}
+                alt="Site Logo"
             />
             <div>
                 <ul className="nav-buttons">

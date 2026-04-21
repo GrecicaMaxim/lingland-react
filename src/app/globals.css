@@ -153,3 +153,49 @@ body {
   font-size: 20px;
   margin-top: 6px;
 }
+
+.lang-choice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.lang-choice h2 {
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.lang-list {
+  display: grid;
+  grid-template-columns: 110px 110px 110px 110px;
+  gap: 40px 100px;
+}
+
+.lang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.lang:hover > .lang-name {
+  color: blue;
+}
+
+.lang:hover {
+  cursor: pointer;
+}
+
+.lang-img {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7));
+}
+
+.lang-name {
+  font-size: 22px;
+}
