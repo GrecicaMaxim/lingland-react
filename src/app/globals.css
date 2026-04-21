@@ -240,3 +240,65 @@ body {
   font-size: 20px;
   text-align: center;
 }
+
+.trust-learners {
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trust-learners h2 {
+  font-size: 50px;
+  margin-bottom: 70px;
+  width: 1000px;
+  text-align: center;
+}
+
+.comment-collection {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 300px 300px 300px;
+  gap: 25px;
+}
+
+.comment-card {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  padding: 24px 35px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-card h3 {
+  margin-bottom: 20px;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more p {
+  font-size: 25px;
+  color: rgb(142, 142, 142);
+}
