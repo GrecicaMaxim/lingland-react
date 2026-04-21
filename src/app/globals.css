@@ -199,3 +199,44 @@ body {
 .lang-name {
   font-size: 22px;
 }
+
+.why-lingland {
+    background: linear-gradient(60deg, #bc57e7, #aecdff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.why-lingland h2 {
+    color: #861cb3;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+.lingland-cards {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 30px;
+}
+
+.card {
+    color: #861cb3;
+    padding: 24px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h3 {
+  font-size: 30px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 20px;
+  text-align: center;
+}
