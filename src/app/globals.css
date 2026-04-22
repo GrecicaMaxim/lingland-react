@@ -334,3 +334,93 @@ body {
     justify-content: center;
     align-items: center;
 }
+footer {
+    background-color: rgb(29, 106, 229);
+    color: white;
+    padding: 40px 120px;
+}
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.join-text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.join-text p {
+    font-size: 18px;
+}
+.search-email {
+    display: flex;
+}
+.email-bar {
+    background-color: white;
+    color: rgb(12, 68, 160);
+    font-size: 18px;
+    border: none;
+    /*border: 5px solid rgb(12, 68, 160);*/
+    /*border-right: none;*/
+    padding: 15px 12px;
+    width: 300px;
+}
+.email-bar::placeholder {
+    color: rgb(12, 68, 160);
+}
+.search-email a {
+    background-color: rgb(12, 68, 160);
+    color: white;
+    text-decoration: none;
+    border: 5px solid rgb(12, 68, 160);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+.menu {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+.menu-part h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.menu-part ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.menu-part ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu-part ul li a:hover {
+    text-decoration: underline;
+}
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+.social-media a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.brands {
+    color: rgb(29, 106, 229);
+    font-size: 20px;
+}
+.bottom-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

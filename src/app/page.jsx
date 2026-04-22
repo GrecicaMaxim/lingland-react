@@ -4,6 +4,7 @@ import LanguageChoice from "@/components/lang-choice/page";
 import Offers from "@/components/offers/page";
 import TrustLearners from "@/components/trust_learners/page";
 import PartnersSection from "@/components/partners_section/page";
+import Footer from "@/components/footer/page";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
                 <TrustLearners />
                 <PartnersSection />
             </main>
+            <Footer />
         </>
     );
 }
