@@ -3,6 +3,7 @@ import Header from "@/components/header/page";
 import LanguageChoice from "@/components/lang-choice/page";
 import Offers from "@/components/offers/page";
 import TrustLearners from "@/components/trust_learners/page";
+import PartnersSection from "@/components/partners_section/page";
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
                 <LanguageChoice />
                 <Offers />
                 <TrustLearners />
+                <PartnersSection />
             </main>
         </>
     );

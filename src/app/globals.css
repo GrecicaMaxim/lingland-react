@@ -260,7 +260,7 @@ body {
 .comment-collection {
   display: grid;
   grid-template-columns: 350px 350px 350px;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 300px 300px 350px;
   gap: 25px;
 }
 
@@ -301,4 +301,36 @@ body {
 .more p {
   font-size: 25px;
   color: rgb(142, 142, 142);
+}
+
+.partners-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.partners-section h2 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.partners-section p {
+    font-size: 22px;
+    color: rgb(142, 142, 142);
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.partners {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+    gap: 15px;
+}
+
+.partner-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
