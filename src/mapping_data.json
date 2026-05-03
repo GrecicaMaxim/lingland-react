@@ -92,5 +92,98 @@
             "Heading": "Quick progress",
             "Main": "Customised AI-enabled revision tools that help each learner meet their daily goals and develop long-term practise habits."
         }
+    ],
+    "comment_cards": [
+        {
+            "id": 1,
+            "Title": "Perfect Solution in perfect time",
+            "Comment": "I had a 100% satisfaction experience with lingland team. My problem was resolved in 48h as I said.",
+            "User": "Joa",
+            "Date": "22 October"
+        },
+        {
+            "id": 2,
+            "Title": "This website is easy to ...",
+            "Comment": "The website is easy to access and navigate.",
+            "User": "Mari",
+            "Date": "22 October"
+        },
+        {
+            "id": 3,
+            "Title": "Best support",
+            "Comment": "I write to LingLand often and always get a good response. My most recent experience was with Katya. She was super helpful and kind. She got extra help for me as my question was complicated. Then she followed up.",
+            "User": "Kathrine",
+            "Date": "14 October"
+        },
+        {
+            "id": 4,
+            "Title": "Outstanding support",
+            "Comment": "My problem was solved within one day. The support is responding to my questions very fast. Super!",
+            "User": "Abby",
+            "Date": "14 October"
+        },
+        {
+            "id": 5,
+            "Title": "A new customer and so far very good",
+            "Comment": "A new customer and so far, impressed with the course, and the speedy response to my technical questions.",
+            "User": "Mark",
+            "Date": "11 October"
+        },
+        {
+            "id": 6,
+            "Title": "Way better than Duolingo",
+            "Comment": "In the last three days, I have learned more Italian on LingLand than on Duolingo for months. The lessons (I can speak only for lower A1-A2 levels) are very well structured and there is plenty of vocabulary to explore.",
+            "User": "Simona Marinova",
+            "Date": "9 October"
+        },
+        {
+            "id": 7,
+            "Title": "The best learning language app out there",
+            "Comment": "I have tried out several Language Learning Apps over the years (like Duolingo, Babbel and so on). LingLand is definitely my favorite so far. Great pace to the learning progression without being too repetitive!",
+            "User": "Edgar Tomson",
+            "Date": "5 October"
+        }
+    ],
+    "partners_logos": [
+        {
+            "id": 1,
+            "Source": "/nike-logo.png",
+            "Width": 243
+        },
+        {
+            "id": 2,
+            "Source": "/asana-logo.png",
+            "Width": 212
+        },
+        {
+            "id": 3,
+            "Source": "/wordpress-logo.png",
+            "Width": 225
+        },
+        {
+            "id": 4,
+            "Source": "/github-logo.png",
+            "Width": 133
+        },
+        {
+            "id": 5,
+            "Source": "/unilever-logo.png",
+            "Width": 126
+        },
+        {
+            "id": 6,
+            "Source": "/paypal-logo.png",
+            "Width": 114
+        },
+        {
+            "id": 7,
+            "Source": "/puma-logo.png",
+            "Width": 140
+        },
+        {
+            "id": 8,
+            "Source": "/android-logo.png",
+            "Width": 140
+        }
     ]
 }
