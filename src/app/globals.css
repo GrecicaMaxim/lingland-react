@@ -15,64 +15,6 @@ body {
   font-family: 'Segoe UI';
 }
 
-.nav {
-  width: 100%;
-  height: 80px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 800px;
-  box-shadow: 0px 7px 7px rgba(32, 32, 32, 0.4);
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  right: 0;
-}
-
-.nav-buttons {
-  display: flex;
-  list-style: none;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 30px;
-  height: 70px;
-  width: 450px;
-}
-
-.learn-btn {
-  background: linear-gradient(45deg, rgb(90, 9, 125), rgb(188, 84, 253));
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 10px 40px;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-.learn-btn:hover {
-  background: linear-gradient(45deg, rgb(140, 58, 192), rgb(223, 153, 255));
-  transition: all 0.3s;
-}
-
-.signin-btn {
-  color: rgb(67, 139, 255);
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 7px 40px;
-  border: 3px solid rgb(67, 139, 255);
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-.signin-btn:hover {
-  background-color: rgb(67, 139, 255);
-  color: white;
-  transition: 0.3s;
-}
-
 .header {
   margin-top: 80px;
   height: 800px;
