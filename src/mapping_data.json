@@ -1,0 +1,52 @@
+{
+    "lang_option": [
+        {
+            "Source": "/flag-uk.png",
+            "Name": "English"
+        },
+        {
+            "Source": "/flag-germany.png",
+            "Name": "German"
+        },
+        {
+            "Source": "/flag-france.png",
+            "Name": "French"
+        },
+        {
+            "Source": "/flag-spain.png",
+            "Name": "Spanish"
+        },
+        {
+            "Source": "/flag-russia.png",
+            "Name": "Russian"
+        },
+        {
+            "Source": "/flag-japan.png",
+            "Name": "Japanese"
+        },
+        {
+            "Source": "/flag-south-korea.png",
+            "Name": "Korean"
+        },
+        {
+            "Source": "/flag-italy.png",
+            "Name": "Italian"
+        },
+        {
+            "Source": "/flag-portugal.png",
+            "Name": "Portuguese"
+        },
+        {
+            "Source": "/flag-china.png",
+            "Name": "Chinese"
+        },
+        {
+            "Source": "/flag-poland.png",
+            "Name": "Polish"
+        },
+        {
+            "Source": "/flag-netherlands.png",
+            "Name": "Dutch"
+        }
+    ]
+}
