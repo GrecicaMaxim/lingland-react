@@ -1,10 +1,10 @@
-import NavBar from "@/components/navbar/page";
-import Header from "@/components/header/page";
-import LanguageChoice from "@/components/lang-choice/page";
-import Offers from "@/components/offers/page";
-import TrustLearners from "@/components/trust_learners/page";
-import PartnersSection from "@/components/partners_section/page";
-import Footer from "@/components/footer/page";
+import NavBar from "@/components/navbar";
+import Header from "@/components/header";
+import LanguageChoice from "@/components/lang-choice";
+import Offers from "@/components/offers";
+import TrustLearners from "@/components/trust_learners";
+import PartnersSection from "@/components/partners_section";
+import Footer from "@/components/footer";
 
 export default function Home() {
     return (

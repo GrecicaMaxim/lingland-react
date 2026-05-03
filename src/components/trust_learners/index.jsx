@@ -1,4 +1,4 @@
-import CommentCard from "@/components/comment_card/page";
+import CommentCard from "@/components/comment_card";
 
 export default function TrustLearners() {
     return (

@@ -1,4 +1,4 @@
-import OfferCard from "../offer_card/page";
+import OfferCard from "../offer_card";
 import StairsIcon from '@mui/icons-material/Stairs';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import SocialDistanceIcon from '@mui/icons-material/SocialDistance';

@@ -1,4 +1,4 @@
-import PartnerLogo from "@/components/partner_logo/page";
+import PartnerLogo from "@/components/partner_logo";
 
 export default function PartnersSection() {
     return (

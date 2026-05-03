@@ -1,4 +1,4 @@
-import LanguageOption from "../language-option/page";
+import LanguageOption from "../language-option";
 
 export default function LanguageChoice() {
     return (
