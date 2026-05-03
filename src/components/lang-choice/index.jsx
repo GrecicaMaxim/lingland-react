@@ -9,7 +9,7 @@ export default function LanguageChoice() {
             <h2>What language do you want to learn?</h2>
             <div className="lang-list">
                 {language_option.map((n) => (
-                    <LanguageOption source={n.Source} name={n.Name}/>
+                    <LanguageOption key={n.id} source={n.Source} name={n.Name}/>
                 ))}
                 <div></div>
                 <LanguageOption source="/flag-saudi-arabia.png" name="Arabic"/>

@@ -1,52 +1,96 @@
 {
     "lang_option": [
         {
+            "id": 1,
             "Source": "/flag-uk.png",
             "Name": "English"
         },
         {
+            "id": 2,
             "Source": "/flag-germany.png",
             "Name": "German"
         },
         {
+            "id": 3,
             "Source": "/flag-france.png",
             "Name": "French"
         },
         {
+            "id": 4,
             "Source": "/flag-spain.png",
             "Name": "Spanish"
         },
         {
+            "id": 5,
             "Source": "/flag-russia.png",
             "Name": "Russian"
         },
         {
+            "id": 6,
             "Source": "/flag-japan.png",
             "Name": "Japanese"
         },
         {
+            "id": 7,
             "Source": "/flag-south-korea.png",
             "Name": "Korean"
         },
         {
+            "id": 8,
             "Source": "/flag-italy.png",
             "Name": "Italian"
         },
         {
+            "id": 9,
             "Source": "/flag-portugal.png",
             "Name": "Portuguese"
         },
         {
+            "id": 10,
             "Source": "/flag-china.png",
             "Name": "Chinese"
         },
         {
+            "id": 11,
             "Source": "/flag-poland.png",
             "Name": "Polish"
         },
         {
+            "id": 12,
             "Source": "/flag-netherlands.png",
             "Name": "Dutch"
+        }
+    ],
+    "offer_cards": [
+        {
+            "id": 1,
+            "Heading": "Learning step by step",
+            "Main": "Learning foreign languages is like riding a bike: the more you actively practice, the better you get at it."
+        },
+        {
+            "id": 2,
+            "Heading": "24 hour full support",
+            "Main": "LingLand supporters are online 24/7 for helping you everytime you want."
+        },
+        {
+            "id": 3,
+            "Heading": "Speaking training",
+            "Main": "Live Lessons with certified teachers improve speaking confidence and develop fluency. Choose Private Lessons or Live Group Lessons."
+        },
+        {
+            "id": 4,
+            "Heading": "Learning anytime and anywhere",
+            "Main": "LingLand allows you to learn a bunch of new words, no matter where you are: at the park, in the restaurant or home."
+        },
+        {
+            "id": 5,
+            "Heading": "Travelling and testing your knowledge",
+            "Main": "Expand you vocabulary for adventures abroad, as well as to prepare for international exams, such as IELTS, TOEFL etc."
+        },
+        {
+            "id": 6,
+            "Heading": "Quick progress",
+            "Main": "Customised AI-enabled revision tools that help each learner meet their daily goals and develop long-term practise habits."
         }
     ]
 }
