@@ -15,85 +15,9 @@ body {
   font-family: 'Segoe UI';
 }
 
-.header {
-  margin-top: 80px;
-  height: 800px;
-  background-image: url(/header-picture.jpg);
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.header h1 {
-  color: white;
-  font-size: 72px;
-  margin-bottom: 70px;
-  width: 1100px;
-  text-align: center;
-}
-
-.header-text {
-  color: white;
-  font-size: 35px;
-  margin-bottom: 70px;
-  width: 1200px;
-  text-align: center;
-}
-
-.header a {
-  color: black;
-  background: linear-gradient(45deg, rgb(67, 139, 255), white, white);
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: bold;
-  padding: 20px 100px;
-  border-radius: 40px;
-  cursor: pointer;
-}
-
-.button-and-rating {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-}
-
-.rating-text {
-  color: white;
-  font-size: 26px;
-  margin-bottom: 10px;
-}
-
-.general-rating {
-  color: rgb(214, 162, 236);
-  font-size: 95px;
-  font-weight: bold;
-}
-
-.stars {
-  display: flex;
-  gap: 7px;
-}
-
 .full-star, .empty-star {
   font-size: 35px;
   color: white;
-}
-
-.rating-review {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-}
-
-.review {
-  color: rgb(179, 179, 179);
-  font-size: 20px;
-  margin-top: 6px;
 }
 
 .lang-choice {
