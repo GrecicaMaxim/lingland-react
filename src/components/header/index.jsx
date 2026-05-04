@@ -37,7 +37,7 @@ const GetStarted = styled("a")({
     fontSize: 30,
     fontWeight: 'bold',
     padding: '20px 100px',
-    borderRadius: '40',
+    borderRadius: 40,
     cursor: 'pointer',
 });
 
@@ -61,7 +61,7 @@ const RatingText = styled("p")({
     marginBottom: 10,
 });
 
-const generalRating = styled("h2")({
+const GeneralRating = styled("h2")({
     color: 'rgb(214, 162, 236)',
     fontSize: 95,
     fontWeight: 'bold',

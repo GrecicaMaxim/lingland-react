@@ -1,3 +1,4 @@
+'use client';
 import TextField from '@mui/material/TextField';
 import Divider from '@mui/material/Divider';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -6,11 +7,25 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TelegramIcon from '@mui/icons-material/Telegram';
+import { styled } from "@mui/system";
+
+const FooterDiv = styled("footer")({
+    backgroundColor: 'rgb(29, 106, 229)',
+    color: 'white',
+    padding: '40px 120px',
+});
+
+const NewsLetter = styled("div")({
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 80,
+});
 
 export default function Footer() {
     return (
-        <footer>
-            <div className="newsletter">
+        <FooterDiv>
+            <NewsLetter>
                 <div className="join-text">
                     <h3>Join our newsletter</h3>
                     <p>We'll send you a nice letter once per week. No spam.</p>
@@ -19,7 +34,7 @@ export default function Footer() {
                     <TextField className="email-bar" label=""/>
                     <a href="#">Subscribe</a>
                 </div>
-            </div>
+            </NewsLetter>
             <div className="menu">
                 <div className="menu-part">
                     <h4>Learn languages online</h4>
@@ -78,6 +93,6 @@ export default function Footer() {
                     <a className="brands" href="https://www.youtube.com" target="_blank"><YouTubeIcon /></a>
                 </div>
             </div>
-        </footer>
+        </FooterDiv>
     );
 }
