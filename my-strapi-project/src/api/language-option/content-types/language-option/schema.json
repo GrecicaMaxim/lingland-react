@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "language_options",
+  "info": {
+    "singularName": "language-option",
+    "pluralName": "language-options",
+    "displayName": "Language-Option"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "language_name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offer_cards",
+  "info": {
+    "singularName": "offer-card",
+    "pluralName": "offer-cards",
+    "displayName": "Offer-Card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

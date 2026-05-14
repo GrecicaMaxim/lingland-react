@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comment_cards",
+  "info": {
+    "singularName": "comment-card",
+    "pluralName": "comment-cards",
+    "displayName": "Comment-Card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "user": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
