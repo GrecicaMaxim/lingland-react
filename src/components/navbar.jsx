@@ -1,6 +1,7 @@
 'use client';
 import Image from "next/image";
 import { styled } from "@mui/system";
+import Link from 'next/link';
 
 const NavigationBar = styled("div")({
     width: '100%',
@@ -27,7 +28,7 @@ const NavButtons = styled("ul")({
     width: 450,
 });
 
-const LearnButton = styled("a")({
+const LearnButton = styled(Link)({
     background: 'linear-gradient(45deg, rgb(90, 9, 125), rgb(188, 84, 253))',
     color: 'white',
     textDecoration: 'none',
@@ -38,7 +39,7 @@ const LearnButton = styled("a")({
     cursor: 'pointer',
 });
 
-const SignIn = styled("a")({
+const SignIn = styled(Link)({
     color: 'rgb(67, 139, 255)',
     textDecoration: 'none',
     fontSize: 18,
@@ -60,8 +61,8 @@ export default function NavBar() {
             />
             <div>
                 <NavButtons>
-                    <li><LearnButton>Learn for free</LearnButton></li>
-                    <li><SignIn>Sign in</SignIn></li>
+                    <li><LearnButton href="/learn_for_free">Learn for free</LearnButton></li>
+                    <li><SignIn href="/sign_in">Sign in</SignIn></li>
                 </NavButtons>
             </div>
         </NavigationBar>

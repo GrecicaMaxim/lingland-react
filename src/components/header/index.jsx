@@ -99,7 +99,7 @@ export default function Header() {
                     </Stars>
                     <Review>16,000+ reviews</Review>
                 </RatingReview>
-                <GetStarted>Get started for free</GetStarted>
+                <GetStarted href="/learn_for_free">Get started for free</GetStarted>
             </ButtonAndRating>
         </HeaderDiv>
     );

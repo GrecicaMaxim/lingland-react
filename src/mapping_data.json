@@ -185,5 +185,91 @@
             "Source": "/android-logo.png",
             "Width": 140
         }
+    ],
+    "learn_for_free_languages": [
+        {
+            "id": 1,
+            "Source": "/flag-uk.png",
+            "Name": "English",
+            "Users": "26M"
+        },
+        {
+            "id": 2,
+            "Source": "/flag-spain.png",
+            "Name": "Spanish",
+            "Users": "5M"
+        },
+        {
+            "id": 3,
+            "Source": "/flag-japan.png",
+            "Name": "Japanese",
+            "Users": "4M"
+        },
+        {
+            "id": 4,
+            "Source": "/flag-france.png",
+            "Name": "French",
+            "Users": "5M"
+        },
+        {
+            "id": 5,
+            "Source": "/flag-germany.png",
+            "Name": "German",
+            "Users": "4M"
+        },
+        {
+            "id": 6,
+            "Source": "/flag-netherlands.png",
+            "Name": "Dutch",
+            "Users": "30K"
+        },
+        {
+            "id": 7,
+            "Source": "/flag-italy.png",
+            "Name": "Italian",
+            "Users": "2M"
+        },
+        {
+            "id": 8,
+            "Source": "/flag-portugal.png",
+            "Name": "Portuguese",
+            "Users": "800K"
+        },
+        {
+            "id": 9,
+            "Source": "/flag-russia.png",
+            "Name": "Russian",
+            "Users": "2M"
+        },
+        {
+            "id": 10,
+            "Source": "/flag-china.png",
+            "Name": "Chinese",
+            "Users": "900K"
+        },
+        {
+            "id": 11,
+            "Source": "/flag-saudi-arabia.png",
+            "Name": "Arabic",
+            "Users": "1M"
+        },
+        {
+            "id": 12,
+            "Source": "/flag-turkey.png",
+            "Name": "Turkish",
+            "Users": "1M"
+        },
+        {
+            "id": 13,
+            "Source": "/flag-poland.png",
+            "Name": "Polish",
+            "Users": "26M"
+        },
+        {
+            "id": 14,
+            "Source": "/flag-south-korea.png",
+            "Name": "Korean",
+            "Users": "26M"
+        }
     ]
 }
