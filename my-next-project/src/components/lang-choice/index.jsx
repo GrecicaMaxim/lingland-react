@@ -2,8 +2,9 @@
 import LanguageOption from "../language-option";
 import mapping_data from "@/mapping_data.json";
 import { styled } from "@mui/system";
+import { fetchStrapi } from "@/lib/strapi";
 
-const language_option = mapping_data.lang_option;
+const language_option = await fetchStrapi('/language-options?populate=*');
 
 const LangChoice = styled("div")({
     display: 'flex',
@@ -28,17 +29,19 @@ const LangList = styled("div")({
 
 export default function LanguageChoice() {
     return (
-        <LangChoice>
-            <ChoiceH2>What language do you want to learn?</ChoiceH2>
-            <LangList>
+        <div className="lang-choice">
+            <h2>What language do you want to learn?</h2>
+            <div className="lang-list">
                 {language_option.map((n) => (
-                    <LanguageOption key={n.id} source={n.Source} name={n.Name}/>
+                    <LanguageOption key={n.id}
+                                    source={`${process.env.NEXT_PUBLIC_STRAPI_URL}${n.image.url}`}
+                                    name={n.language_name}/>
                 ))}
                 <div></div>
                 <LanguageOption source="/flag-saudi-arabia.png" name="Arabic"/>
                 <LanguageOption source="/flag-turkey.png" name="Turkish"/>
                 <div></div>
-            </LangList>
-        </LangChoice>
+            </div>
+        </div>
     );
 }
