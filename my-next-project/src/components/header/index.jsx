@@ -30,17 +30,6 @@ const HeaderText = styled("p")({
     textAlign: 'center',
 });
 
-const GetStarted = styled("a")({
-    color: 'black',
-    background: 'linear-gradient(45deg, rgb(67, 139, 255), white, white)',
-    textDecoration: 'none',
-    fontSize: 30,
-    fontWeight: 'bold',
-    padding: '20px 100px',
-    borderRadius: 40,
-    cursor: 'pointer',
-});
-
 const ButtonAndRating = styled("div")({
     display: 'flex',
     justifyContent: 'center',
@@ -99,7 +88,7 @@ export default function Header() {
                     </Stars>
                     <Review>16,000+ reviews</Review>
                 </RatingReview>
-                <GetStarted href="/learn_for_free">Get started for free</GetStarted>
+                <a className="get-started" href="/learn_for_free">Get started for free</a>
             </ButtonAndRating>
         </HeaderDiv>
     );

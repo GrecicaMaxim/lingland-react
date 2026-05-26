@@ -1,6 +1,5 @@
 'use client';
 import LanguageOption from "../language-option";
-import mapping_data from "@/mapping_data.json";
 import { styled } from "@mui/system";
 import { fetchStrapi } from "@/lib/strapi";
 

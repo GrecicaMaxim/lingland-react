@@ -15,6 +15,49 @@ body {
   font-family: 'Segoe UI';
 }
 
+.learn-btn {
+    background: linear-gradient(45deg, rgb(90, 9, 125), rgb(188, 84, 253));
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+.learn-btn:hover {
+    background: linear-gradient(45deg, rgb(140, 58, 192), rgb(223, 153, 255));
+    transition: 0.3s;
+}
+.signin-btn {
+    color: rgb(67, 139, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 40px;
+    border: 3px solid rgb(67, 139, 255);
+    border-radius: 25px;
+}
+.signin-btn:hover {
+    background-color: rgb(67, 139, 255);
+    color: white;
+    transition: 0.3s;
+}
+
+.get-started {
+    color: black;
+    background: linear-gradient(45deg, rgb(67, 139, 255), white, white);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 100px;
+    border-radius: 40px;
+}
+.get-started:hover {
+    background: linear-gradient(45deg, rgb(53, 114, 213), rgb(210, 210, 210), rgb(210, 210, 210));
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
 .lang-img {
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7));
 }
@@ -46,7 +89,8 @@ body {
     color: black;
 }
 .lang:hover > .lang-name {
-    color: blue;
+    color: rgb(136, 61, 202);
+    text-decoration: underline;
 }
 .lang:hover {
     cursor: pointer;
@@ -124,8 +168,8 @@ body {
 }
 .comment-collection {
     display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 310px 310px 310px;
     gap: 25px;
 }
 .comment-card {
@@ -339,4 +383,31 @@ body {
     padding-bottom: 5px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
+}
+
+.continue-btn {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 330px;
+    border-radius: 24px;
+    margin-bottom: 8px;
+    background-color: white;
+    border: 2px solid #d7d7d7;
+}
+.continue-btn:hover {
+    background-color: #eeeeee;
+    border: 2px solid #cecece;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.input{
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.forgot-password {
+    margin-bottom: 20px;
 }

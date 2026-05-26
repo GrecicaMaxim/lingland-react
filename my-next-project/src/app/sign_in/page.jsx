@@ -8,7 +8,7 @@ import AppleIcon from '@mui/icons-material/Apple';
 import FacebookIcon from '@mui/icons-material/Facebook';
 
 const SignInBG = styled("div")({
-    backgroundColor: '#b0c8f7',
+    backgroundColor: '#202b41',
     overflowY: 'hidden'
 });
 
@@ -32,28 +32,12 @@ const RegisterText = styled("div")({
     gap: 5
 });
 
-const ContinueBtn = styled("button")({
-    fontSize: 16,
-    paddingTop: 15,
-    paddingBottom: 15,
-    width: 330,
-    borderRadius: 24,
-    marginBottom: 8,
-    backgroundColor: 'white',
-    textAlign: 'center',
-    border: '2px solid #d7d7d7'
-});
-
 const SignInForm = styled(Form)({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-start',
     justifyContent: 'center',
     width: 330
-});
-
-const ForgotPassword = styled("a")({
-    marginBottom: 20
 });
 
 const SubmitBtn = styled("button")({
@@ -67,6 +51,7 @@ const SubmitBtn = styled("button")({
     color: 'white',
     border: 'none',
     margin: '5px auto',
+    cursor: 'pointer'
 });
 
 export default function SignIn() {
@@ -78,16 +63,16 @@ export default function SignIn() {
                     <p>Don't have an account? </p>
                     <Link href="/">Register</Link>
                 </RegisterText>
-                <ContinueBtn><GoogleIcon sx={{fontSize: '22px', marginRight: '15px'}}/>Continue with Google</ContinueBtn>
-                <ContinueBtn><AppleIcon sx={{fontSize: '22px', marginRight: '15px'}}/>Continue with Apple</ContinueBtn>
-                <ContinueBtn><FacebookIcon sx={{fontSize: '22px', marginRight: '15px'}}/>Continue with Facebook</ContinueBtn>
+                <button className="continue-btn"><GoogleIcon sx={{fontSize: '22px', marginRight: '15px'}}/>Continue with Google</button>
+                <button className="continue-btn"><AppleIcon sx={{fontSize: '22px', marginRight: '15px'}}/>Continue with Apple</button>
+                <button className="continue-btn"><FacebookIcon sx={{fontSize: '22px', marginRight: '15px'}}/>Continue with Facebook</button>
                 <p>or</p>
                 <SignInForm>
                     <p>Email</p>
-                    <input type="email" style={{width: '100%'}}/>
+                    <input className="input" type="email" style={{width: '100%'}}/>
                     <p>Password</p>
-                    <input type="password" style={{width: '100%'}}/>
-                    <ForgotPassword>Forgot your password?</ForgotPassword>
+                    <input className="input" type="password" style={{width: '100%'}}/>
+                    <Link className="forgot-password" href="/">Forgot your password?</Link>
                     <SubmitBtn>Sign in</SubmitBtn>
                 </SignInForm>
             </SignBox>

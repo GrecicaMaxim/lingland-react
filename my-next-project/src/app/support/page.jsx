@@ -24,28 +24,41 @@ const SendBtn = styled("button")({
     fontSize: 18,
     fontWeight: 'bold',
     border: 'none',
-    borderRadius: 24
+    borderRadius: 24,
+    cursor: 'pointer'
 });
 
 const Pink = styled("div")({
-    backgroundColor: "#e6c8fe",
-    height: '100vh',
-    margin: 0,
+    backgroundColor: "#281735",
     overflowY: 'hidden'
+});
+
+const SupportInput = styled("input")({
+    width: 920,
+    fontSize: 18,
+    paddingBlock: 20,
+    paddingInline: 10,
+    marginTop: 5,
+    marginBottom: 10,
+});
+
+const Heading = styled("h2")({
+    marginBottom: 30
 });
 
 export default function Support() {
     return (
         <Pink>
             <SupportForm>
+                <Heading>Send your question</Heading>
                 <p>Email address</p>
-                <input type="email" style={{width: '100%', height: '30px'}}/>
+                <SupportInput type="email" style={{width: '100%', height: '30px'}}/>
                 <p>Topic</p>
-                <input type="text" style={{width: '100%', height: '30px'}}/>
+                <SupportInput type="text" style={{width: '100%', height: '30px'}}/>
                 <p>Description</p>
-                <input type="text" height={'100px'} style={{width: '100%', height: '200px'}}/>
+                <SupportInput type="text" height={'100px'} style={{width: '100%', height: '200px'}}/>
                 <p>Attached files</p>
-                <input type="file"/>
+                <SupportInput type="file"/>
                 <SendBtn>Send</SendBtn>
             </SupportForm>
         </Pink>

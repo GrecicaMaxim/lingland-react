@@ -28,28 +28,6 @@ const NavButtons = styled("ul")({
     width: 450,
 });
 
-const LearnButton = styled(Link)({
-    background: 'linear-gradient(45deg, rgb(90, 9, 125), rgb(188, 84, 253))',
-    color: 'white',
-    textDecoration: 'none',
-    fontSize: 18,
-    fontWeight: 'bold',
-    padding: '10px 40px',
-    borderRadius: 25,
-    cursor: 'pointer',
-});
-
-const SignIn = styled(Link)({
-    color: 'rgb(67, 139, 255)',
-    textDecoration: 'none',
-    fontSize: 18,
-    fontWeight: 'bold',
-    padding: '7px 40px',
-    border: '3px solid rgb(67, 139, 255)',
-    borderRadius: 25,
-    cursor: 'pointer',
-});
-
 export default function NavBar() {
     return (
         <NavigationBar>
@@ -61,8 +39,8 @@ export default function NavBar() {
             />
             <div>
                 <NavButtons>
-                    <li><LearnButton href="/learn_for_free">Learn for free</LearnButton></li>
-                    <li><SignIn href="/sign_in">Sign in</SignIn></li>
+                    <li><Link className="learn-btn" href="/learn_for_free">Learn for free</Link></li>
+                    <li><Link className="signin-btn" href="/sign_in">Sign in</Link></li>
                 </NavButtons>
             </div>
         </NavigationBar>
